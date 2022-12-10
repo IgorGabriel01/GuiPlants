@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #8FBC8F;
+    justify-content: space-around;
+}
+
+.imgheader {
+    width: 160px;
+    height: 160px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.listaheader {
+    display: flex;
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.pheader {
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.carrinhoheader {
+    width: 54px;
+    height: 55px;
+}
+
