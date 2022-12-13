@@ -7,19 +7,26 @@
 .header {
     display: flex;
     background-color: #8FBC8F;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    height: 140px;
+    width: 100%;
 }
 
 .imgheader {
-    width: 160px;
-    height: 160px;
-    margin: 0px;
-    padding: 0px;
+    width: 140px;
+    height: 150px;
 }
 
 .listaheader {
     display: flex;
     font-weight: bold;
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+.itenslistaheader {
+    margin-right: 60px;
+    margin-top: 56px;
 }
 
 ul li {
@@ -31,14 +38,61 @@ li a {
     color: white;
 }
 
-.pheader {
+form {
+    margin-top: 40px;
+}
+
+.pdiv {
     display: flex;
     color: white;
     font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 3px; 
+}
+
+.login {
+    margin-left: 10px;
+}
+
+.login:hover {
+    cursor: pointer;
 }
 
 .carrinhoheader {
     width: 54px;
     height: 55px;
+    margin-top: 30px;
+    margin-left:100px;
 }
 
+.flexmain {
+    display: flex;
+}
+
+.indicadorpagina {
+    background-color: #363636;
+    border-radius: 10px;
+    color: white;
+    width: 320px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.listamain {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.itensmain {
+    background-color: #363636;
+    margin-left: 40px;
+}
+
+nav ul li img {
+    width: 140px;
+    height: 180px;
+    padding-left: 5px;
+}
