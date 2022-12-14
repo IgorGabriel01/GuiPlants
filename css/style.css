@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #F0FFF0;
+}
+
 .header {
     display: flex;
     background-color: #8FBC8F;
@@ -51,6 +55,10 @@ form {
     margin-bottom: 3px; 
 }
 
+.hover_header:hover {
+    color: #363636;
+}
+
 .login {
     margin-left: 10px;
 }
@@ -68,45 +76,84 @@ form {
 
 .flexmain {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .indicadorpagina {
     background-color: #363636;
     border-radius: 10px;
     color: white;
-    width: 320px;
-    height: 30px;
-    padding-top: 10px;
+    width: 650px;
+    height: 45px;
+    padding-top: 20px;
     font-size: 18px;
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 210px;
 }
 
 .listamain {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .itensmain {
     background-color: #363636;
-    margin-left: 40px;
+    margin-left: 25px;
+    text-align: center;
+    width: 210px;
+    height: 285px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-top: 5px; ;
+    color: white;
 }
 
 nav ul li img {
     width: 140px;
     height: 180px;
     padding-left: 5px;
+    border-radius: 20px;
 }
 
 aside {
-    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.botao_carrinho{
+    width: 120px;
+    height: 42px;
+    background-color: #fab400;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 45px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.itensmain:hover{
+    cursor:pointer;
+    background-color: #1C1C1C;
+}
+
+.itens_aside:hover{
+    cursor: pointer;
+    background-color: #1C1C1C;
+}
+
+.botao_carrinho:hover{
+    background-color: #8FBC8F;
+    cursor: pointer;
 }
 
 #navegacao_aside {
     border-left: #363636 solid 1px;
-    padding-left: 15px;  
+    padding-left: 15px;
+    margin-top: 100px;
 }
 
 .itens_aside {
@@ -115,17 +162,18 @@ aside {
     height: 40px;
     width: 165px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 19px;
     color: white;
     font-weight: bold;
-    margin-bottom: 35px;
+    margin-bottom: 55px;
 }
 
 #suporte {
     display: flex;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 18px;
+    padding-top: 20px;
 }
 
 #suporte p {
