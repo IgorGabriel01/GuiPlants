@@ -74,6 +74,12 @@ form {
     margin-left:100px;
 }
 
+.carrinhoheader:hover{
+    background-color: #363636 ; 
+    border-radius: 10px; 
+    border: 3px #363636 solid;
+}
+
 .flexmain {
     display: flex;
     margin-bottom: 10px;
