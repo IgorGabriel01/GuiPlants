@@ -1,217 +1,83 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-body {
-    background-color: #F0FFF0;
+#logo-littleseed {
+    width: 240px;
+    height: 130px;
 }
-
-.header {
+.caixa-icones-header {
     display: flex;
-    background-color: #8FBC8F;
+}
+header {
+    display: flex;
+    background-color: #D3D3D3;
+    align-items: center;
     justify-content: space-evenly;
-    height: 140px;
-    width: 100%;
 }
-
-.imgheader {
-    width: 140px;
-    height: 150px;
+#input {
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
 }
-
-.listaheader {
-    display: flex;
-    font-weight: bold;
-    margin-left: 120px;
-    font-size: 20px;
+#lupa {
+    width: 15px;
+    height: 15px;
 }
-
-.itenslistaheader {
-    margin-right: 60px;
-    margin-top: 56px;
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
 }
-
-ul li {
-    list-style: none;
-}
-
-li a {
-    text-decoration: none;
-    color: white;
-}
-
-form {
-    margin-top: 40px;
-}
-
-.pdiv {
-    display: flex;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    margin-left: 10px;
-    margin-bottom: 3px; 
-}
-
-.hover_header:hover {
-    color: #363636;
-}
-
-.login {
-    margin-left: 10px;
-}
-
-.login:hover {
-    cursor: pointer;
-}
-
-.carrinhoheader {
-    width: 54px;
-    height: 55px;
-    margin-top: 30px;
-    margin-left:100px;
-}
-
-.carrinhoheader:hover{
-    background-color: #363636 ; 
-    border-radius: 10px; 
-    border: 3px #363636 solid;
-}
-
-.flexmain {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-.indicadorpagina {
-    background-color: #363636;
-    border-radius: 10px;
-    color: white;
-    width: 650px;
-    height: 45px;
-    padding-top: 20px;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 210px;
-}
-
-.listamain {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
-}
-
-.itensmain {
-    background-color: #363636;
-    margin-left: 25px;
-    text-align: center;
-    width: 210px;
-    height: 285px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 20px;
-    margin-right: 40px;
-    margin-top: 5px; ;
-    color: white;
-}
-
-nav ul li img {
-    width: 140px;
-    height: 180px;
-    padding-left: 5px;
-    border-radius: 20px;
-}
-
-aside {
-    margin-right: 10px;
-}
-
-.botao_carrinho{
-    width: 120px;
-    height: 42px;
-    background-color: #fab400;
-    text-align: center;
-    padding-top: 5px;
-    margin-left: 45px;
-    border-radius: 20px;
-    margin-top: 10px;
-}
-
-.itensmain:hover{
-    cursor:pointer;
-    background-color: #1C1C1C;
-}
-
-.itens_aside:hover{
-    cursor: pointer;
-    background-color: #1C1C1C;
-}
-
-.botao_carrinho:hover{
-    background-color: #8FBC8F;
-    cursor: pointer;
-}
-
-#navegacao_aside {
-    border-left: #363636 solid 1px;
-    padding-left: 15px;
-    margin-top: 100px;
-}
-
-.itens_aside {
-    background-color: #363636;
-    border-radius: 20px;
-    height: 40px;
-    width: 165px;
-    text-align: center;
-    padding-top: 19px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 55px;
-}
-
-#suporte {
-    display: flex;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 18px;
-    padding-top: 20px;
-}
-
-#suporte p {
-    margin-top: 5px;
-}
-
-.icones {
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-}
-
-footer {
-    background-color: #363636;
-    display: flex;
-    justify-content: space-between;
-    color: white;
+.icones-header {
+    width: 35px;
     height: 35px;
 }
-
-footer p {
-    margin-top: 9px;
-    margin-left: 550px;
-
+.style-header {
+    color: #54703e;
 }
-
-.atendimento {
-    width: 30px;
-    height: 27px;
+a {
+    text-decoration: none;
 }
-
-.redessocais {
-    margin-right: 20px;
-    margin-top: 9px;
+nav {
+    background-color: #82a764;
+}
+#menu-nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 8px 8px;
+}
+.icones-nav {
+    width: 40px;
+    height: 40px;
+}
+li {
+    list-style: none;
+}
+#footer-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: #D3D3D3;
+    padding-bottom: 10px;
+}
+.lista-footer {
+    padding-top: 30px;
+}
+#littleseed-footer {
+    width: 190px;
+    height: 100px;
+    padding-left: 60px;
+}
+.icon-footer {
+    width: 12px;
+    height: 12px;
+}
+#info-footer {
+    text-align: center;
+    background-color: #82a764;
+    color: white;
+    padding: 5px 5px;
 }
